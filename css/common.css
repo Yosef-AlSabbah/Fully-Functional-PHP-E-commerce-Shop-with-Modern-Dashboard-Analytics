@@ -1,0 +1,22 @@
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .nice-select.swal2-select {
+    display: none;
+  }
+
+  .main-panel, .container {
+    animation: loadingShow 0.75s;
+  }
+
+  @keyframes loadingShow {
+    from {
+      opacity: 0;
+      transform: rotateX(-10);
+    }
+    to {
+      opacity: 1;
+      transform: rotateX(0);
+    }
+  }
